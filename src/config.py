@@ -1,0 +1,7 @@
+import os
+
+MONGODB_URL = os.getenv('MONGODB_URL')
+SMTP_SENDER_USERNAME = os.getenv('SMTP_SENDER_USERNAME')
+SMTP_SENDER_PASSWORD = os.getenv('SMTP_SENDER_PASSWORD')
+
+HOST = os.getenv('HOST')
